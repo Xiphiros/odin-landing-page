@@ -170,6 +170,7 @@ body {
 
 .sign-up > div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-end;
     margin: 5% auto;
