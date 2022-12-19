@@ -81,7 +81,7 @@ body {
     padding: 0.5em 2.5em;
     background-color: #3882F6;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: 900;
     border: 0;
     border-radius: 5px;
 }
@@ -142,4 +142,39 @@ body {
     font-size: 24px;
     font-weight: 700;
     text-align: end;
+}
+
+.sign-up h3 {
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.sign-up p {
+    margin: 0;
+    padding: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.sign-up button {
+    width: 110px;
+    height: 34px;
+    background-color: transparent;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: 900;
+}
+
+.sign-up > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 5% auto;
+    padding: 3% 3%;
+    width: 55%;
+    background-color: #3882F6;
+    border-radius: 11px;
 }
