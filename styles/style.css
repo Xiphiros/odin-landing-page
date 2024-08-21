@@ -13,3 +13,25 @@ html {
 body {
     font-family: 'Roboto', 'sans-serif';
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 8vw;
+    color: #FFF;
+    background-color: #1F2937;
+}
+
+.header__nav-container {
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header__logo {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
