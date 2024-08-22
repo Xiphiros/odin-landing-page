@@ -49,9 +49,8 @@ body {
 .hero__container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
-    width: 60%;
 }
 
 .hero__image-placeholder {
