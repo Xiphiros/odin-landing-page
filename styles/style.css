@@ -37,3 +37,52 @@ body {
     font-size: 1.2rem;
     font-weight: bolder;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 8vh 8vw;
+    color: #FFF;
+    background-color: #1F2937;
+}
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.hero__image-placeholder {
+    display: flex;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    aspect-ratio: 16 / 9;
+    color: #FFF;
+    background-color: #6D747D;
+}
+
+.hero__heading {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    color: #F9FAF8;
+}
+
+.hero__description {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero__button {
+    padding: 0.5rem 1.5rem;
+    color: #FFF;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
