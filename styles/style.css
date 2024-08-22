@@ -85,3 +85,41 @@ body {
     border-radius: 5px;
     font-weight: bold;
 }
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.info__heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.info__items-container {
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5rem 0;
+}
+
+.info__item {
+    display: flex;
+    flex: 0 11rem;
+    flex-direction: column;
+}
+
+.info__item-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border: 4px solid #3882F6;
+    border-radius: 13px;
+}
+
+.info__item-description {
+    text-align: center;
+}
+
