@@ -1,5 +1,3 @@
-# odin-landing-page
-
 # Landing Page
 
 ## Overview
@@ -22,4 +20,4 @@ The purpose of this project is to make a simple landing page using HTML5, and CS
 
 ## Setup and Installation
 
-Clone the repository and open index.html in your browser, or preferably open the [Github Pages](#) site.
+Clone the repository and open index.html in your browser, or preferably open the [Github Pages](https://xiphiros.github.io/odin-landing-page/) site.
