@@ -192,3 +192,14 @@ body {
     border-radius: 5px;
     font-weight: bold;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer__text {
+    color: #F9FAF8;
+}
